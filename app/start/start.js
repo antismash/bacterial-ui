@@ -20,7 +20,7 @@ angular.module('antismash.ui.bacterial.as_start', ['ngFileUpload'])
                 { id: 'knownclusterblast', description: 'KnownClusterBlast', default: true, stable: true, beta: true },
                 { id: 'clusterblast', description: 'ClusterBlast', default: false, stable: true, beta: true },
                 { id: 'subclusterblast', description: 'SubClusterBlast', default: true, stable: true, beta: true },
-                { id: 'cc_mibig', description: 'MIBiG cluster comparison', default: false, stable: true, beta: true },
+                { id: 'cc_mibig', description: 'MIBiG cluster comparison', default: true, stable: true, beta: true },
                 { id: 'asf', description: 'ActiveSiteFinder', default: true, stable: true, beta: true },
                 { id: 'rre', description: 'RREFinder', default: true, stable: true, beta: true },
                 { id: 'clusterhmmer', description: 'Cluster Pfam analysis', default: false, stable: true, beta: true },
